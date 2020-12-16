@@ -16,6 +16,6 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 vim +'PlugInstall --sync' +qa
 
-vim +'CocInstall coc-pyright --sync' +qa
+vim +'CocInstall -sync coc-pyright' +qa
 
 
