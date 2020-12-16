@@ -8,7 +8,7 @@ chsh -s $(which zsh)
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-git clone git@github.com:itakigawa/dotfiles.git
+git clone https://github.com/itakigawa/dotfiles.git
 
 ## vim
 
