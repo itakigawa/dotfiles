@@ -1,16 +1,14 @@
 # dotfiles
 
+```
 brew tmux htop nodejs npm
-
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 cd
-
 git clone https://github.com/itakigawa/dotfiles.git
-
 cp dotfiles/.zshrc .
 cp dotfiles/.tmux.conf .
 cp dotfiles/.vimrc .
+'''
 
 ## vim
 
