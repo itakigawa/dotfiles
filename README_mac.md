@@ -1,7 +1,7 @@
 # dotfiles
 
 ```
-brew tmux htop nodejs npm fzf
+brew install tmux htop nodejs npm fzf
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 $(brew --prefix)/opt/fzf/install
 cd
