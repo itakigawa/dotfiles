@@ -1,15 +1,20 @@
 # dotfiles
 
-## zsh
+
+## prep
+
+
+
+
+## zsh and tmux
 
 ```
-sudo apt install git curl tmux zsh htop nodejs npm
+sudo apt install git curl tmux zsh htop nodejs npm fzf stow
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/itakigawa/dotfiles.git
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-source ~/.zshrc
+git clone git@github.com:itakigawa/dotfiles.git ~/.dotfiles
+cd  ~/.dotfiles
+stow zsh
 ```
 
 
