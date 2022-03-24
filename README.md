@@ -18,6 +18,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone git@github.com:itakigawa/dotfiles.git ~/.dotfiles
 cd  ~/.dotfiles
 stow zsh tmux vim
+cat /usr/share/doc/fzf/examples/key-bindings.zsh /usr/share/doc/fzf/examples/completion.zsh > .fzf.zsh
+# mac: brew install fzf
+# mac: $(brew --prefix)/opt/fzf/install
 ```
 
 
