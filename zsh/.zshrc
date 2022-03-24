@@ -9,6 +9,7 @@ PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 export HISTFILE=${HOME}/.zsh_history
 export HISTSIZE=1000
 export SAVEHIST=100000
+export FZF_TMUX_OPTS="-d 40%"
 setopt EXTENDED_HISTORY
 setopt hist_ignore_all_dups
 setopt hist_no_store
