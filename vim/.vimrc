@@ -9,8 +9,17 @@ set hlsearch
 set paste
 set rnu
 
+" vim-plug
+call plug#begin('~/.vim/plugged')
+	Plug 'tpope/vim-surround'
+	Plug 'tpope/vim-commentary'
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'junegunn/fzf.vim'
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  Plug 'psf/black', { 'branch': 'stable' }
+call plug#end()
+
 " add
-let mapleader = "\<Space>"
 nnoremap <C-L> :nohlsearch<CR><C-L>
 nnoremap <c-p> :Files<cr>
 nnoremap <silent> [b :bprevious<CR>
@@ -20,16 +29,3 @@ nnoremap <silent> ]B :blast<CR>
 nmap <silent> [g <Plug>(coc-diagnostic-prev)
 nmap <silent> ]g <Plug>(coc-diagnostic-next)
 
-" vim-plug
-call plug#begin('~/.vim/plugged')
-	Plug 'tpope/vim-surround'
-	Plug 'junegunn/vim-easy-align'
-	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-	Plug 'junegunn/fzf.vim'
-	Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'psf/black', { 'branch': 'stable' }
-call plug#end()
-
-" easy-align
-xmap ga <Plug>(EasyAlign)
-nmap ga <Plug>(EasyAlign)
