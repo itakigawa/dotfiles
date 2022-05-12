@@ -17,7 +17,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
-hi Cursorline cterm=bold ctermbg=white ctermfg=black
+hi Cursorline cterm=bold ctermbg=yellow ctermfg=black
 nnoremap <C-L> :nohlsearch<CR><C-L>
 nnoremap <c-p> :Files<cr>
-
