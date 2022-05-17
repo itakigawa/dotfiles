@@ -8,6 +8,7 @@ set hlsearch
 set paste
 set rnu
 let g:python_recommended_style = 0
+let g:fzf_layout = { 'down': '~40%' }
 
 call plug#begin('~/.vim/plugged')
 	Plug 'tpope/vim-surround'
@@ -20,3 +21,4 @@ call plug#end()
 hi Cursorline cterm=bold ctermbg=yellow ctermfg=black
 nnoremap <C-L> :nohlsearch<CR><C-L>
 nnoremap <c-p> :Files<cr>
+
