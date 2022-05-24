@@ -5,7 +5,6 @@ set expandtab
 set hidden
 set ai
 set hlsearch
-set paste
 set rnu
 let g:python_recommended_style = 0
 let g:fzf_layout = { 'down': '~40%' }
