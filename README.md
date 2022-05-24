@@ -29,7 +29,6 @@ cat /usr/share/doc/fzf/examples/key-bindings.zsh /usr/share/doc/fzf/examples/com
 ```
 url -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 # :PlugInstall 
-# :CocInstall coc-pyright in vim
-```
+# :CocInstall coc-pyright
 
 
